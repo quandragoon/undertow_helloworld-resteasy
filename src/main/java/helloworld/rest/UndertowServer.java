@@ -17,14 +17,8 @@ import org.jboss.resteasy.spi.ResteasyDeployment;
 import org.xnio.Options;
 import org.xnio.Sequence;
 
-import javax.net.ssl.KeyManagerFactory;
-import javax.net.ssl.SSLContext;
 import javax.servlet.ServletException;
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.InputStream;
-import java.security.KeyStore;
-import java.security.SecureRandom;
 
 public class UndertowServer {
 
